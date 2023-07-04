@@ -4,6 +4,7 @@ pipeline {
     stage('Checkout Code') {
       steps {
         git(url: 'https://github.com/faraday-academy/curriculum-app', branch: 'dev')
+        git(url: 'https://github.com/alextest5/Curriculum', branch: 'dev')
       }
     }
 
